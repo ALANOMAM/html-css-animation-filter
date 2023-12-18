@@ -166,5 +166,30 @@ opacity: 0;
 }
 
 
+.ex-12-top-white{
+    animation-name:topWhite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes topWhite{
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.ex-12-bottom-white{
+    animation-name:bottomWhite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bottomWhite{
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
 
 /* FINE SOLUZIONE */
