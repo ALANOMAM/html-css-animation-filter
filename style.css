@@ -15,6 +15,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition:1s;
 }
 .ex-4-square {
     width: 100px;
@@ -71,6 +72,7 @@
     height: 20px;
 }
 
+/* INIZIO SOLUZIONE */
 
 .ex-1-square:hover{
     background-color: red;
@@ -81,3 +83,15 @@
 transform: scale(6,2);
 transition: 1s;
 }
+
+.ex-3-square:hover{
+    border-radius: 100px;
+    transition:1s;
+}
+
+
+
+
+
+
+/* FINE SOLUZIONE */
