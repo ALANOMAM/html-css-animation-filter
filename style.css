@@ -159,4 +159,12 @@ opacity: 0;
     }
 }
 
+
+.ex-11-icon:hover{
+    transform: rotateZ(270deg);
+    transition: 2s;
+}
+
+
+
 /* FINE SOLUZIONE */
